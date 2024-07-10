@@ -1,0 +1,84 @@
+
+
+:root {
+    --gralColor: #282c34;
+}
+
+html, body, #root, .App {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: var(--gralColor); /* Puedes cambiar el color de fondo si lo deseas */
+    color: white;
+
+}
+#quote-box{
+    width: 500px;
+    margin: 100px auto;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(253, 248, 247);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    
+}
+
+#text{
+    color: var(--gralColor);
+    margin: auto;
+    width: 90%;
+    font-weight: 800 ;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#author{
+    width: 90%;
+    color: var(--gralColor);
+    display: flex;
+    justify-content: end;
+}
+
+#buttons{
+    width: 90%;
+    display: block;
+    margin-bottom: 2rem;
+
+    
+}
+
+#tweet-quote{
+    cursor: pointer;
+    margin-left: 2rem;
+    float: inline-start;
+    background-color: var(--gralColor);
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+button{
+    cursor: pointer;
+    height: 2rem;
+    margin: 0;
+    background-color: var(--gralColor);
+    color: white;
+    border-radius: 7px;
+    float: inline-end;
+    
+}
+
